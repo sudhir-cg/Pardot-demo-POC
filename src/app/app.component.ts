@@ -68,5 +68,6 @@ export class AppComponent {
       },
     ];
     this.topEmployee.subordinates = [...this.topEmployee.subordinates,previousNode.subordinates];
+    // this.topEmployee.subordinates = previousNode.subordinates;
   }
 }
